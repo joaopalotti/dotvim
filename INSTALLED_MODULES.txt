@@ -1,0 +1,32 @@
+======================
+Modules here installed
+======================
+
+--------
+Pathogen
+--------
+
+Organize submodules inside this git.
+http://www.vim.org/scripts/script.php?script_id=2332
+
+***** Need to update from time to time.
+
+
+-------------
+Language Tool
+-------------
+
+A very heavy package to find grammar errors in texts.
+http://www.vim.org/scripts/script.php?script_id=3223
+https://github.com/languagetool-org/languagetool
+https://languagetool.org/
+
+It is necessary to download the Jar file (~200mb) every update.
+.vimrc configured to use it with F8.
+
+------------
+------------
+
+
+------------
+------------
