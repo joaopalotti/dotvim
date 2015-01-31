@@ -236,9 +236,11 @@ nnoremap <leader>u :GundoToggle<CR>
 "let g:gundo_right = 1
 
 """"""""""""""""""""""""""""""
-" => Syntastic
+" => Python Syntax
 """""""""""""""""""""""""""""""
 
+" Syntastic
+" --------
 "set statusline+=%#warningmsg#
 "set statusline+=%{SyntasticStatuslineFlag()}
 "set statusline+=%*
@@ -249,6 +251,8 @@ nnoremap <leader>u :GundoToggle<CR>
 "let g:syntastic_check_on_wq = 0
 "let g:syntastic_python_checkers = ['mypy', 'flake8']
 
+" Pyflakes
+" --------
 let g:pyflakes_use_quickfix = 0
 
 """"""""""""""""""""""""""""""
