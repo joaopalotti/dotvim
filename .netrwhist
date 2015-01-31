@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/etc/portage/package.keywords'
+let g:netrw_dirhist_2='/var/log/portage'
+let g:netrw_dirhist_3='/home/palotti/Dropbox/tuwien/PhD/logs/logAnalysis'
+let g:netrw_dirhist_4='/usr/share/doc/bash'
+let g:netrw_dirhist_5='/home/palotti/github/relevation/relevation'
