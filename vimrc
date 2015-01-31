@@ -232,7 +232,24 @@ endif
 """""""""""""""""""""""""""""""
 ""TODO: install
 " toggle gundo
-"nnoremap <leader>u :GundoToggle<CR>
+nnoremap <leader>u :GundoToggle<CR>
+"let g:gundo_right = 1
+
+""""""""""""""""""""""""""""""
+" => Syntastic
+"""""""""""""""""""""""""""""""
+
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
+"let g:syntastic_python_checkers = ['mypy', 'flake8']
+
+let g:pyflakes_use_quickfix = 0
 
 """"""""""""""""""""""""""""""
 " => Misc
@@ -249,7 +266,6 @@ func! DeleteTrailingWS()
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
-
 
 
 
