@@ -1,3 +1,12 @@
 [submodule "languagetool"]
 	path = languagetool
 	url = https://github.com/languagetool-org/languagetool
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "Vundle.vim"]
+	path = Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "/home/palotti/.vim/bundle/Vundle.vim"]
+	path = /home/palotti/.vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
