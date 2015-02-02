@@ -59,5 +59,14 @@ Very good autocomplete tool. An alternative to test is YouCompleteMe (http://val
 
 https://github.com/davidhalter/jedi-vim
 
+------------
+YouCompleMe
+------------
+
+Needs some configuration to install it.
+Read it at: https://github.com/Valloric/YouCompleteMe
+
+
+
 
 
