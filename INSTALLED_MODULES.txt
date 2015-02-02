@@ -7,6 +7,10 @@ To install a module, go to bundle dir and install it like:
 git submodule add <git_repository>
 ___________________________________________
 
+Recomended to make a soft link between dotvimrc 
+and ~/.vimrc:
+ln -s $HOME/.vim/vimrc $HOME/.vimrc
+___________________________________________
 
 --------
 Pathogen

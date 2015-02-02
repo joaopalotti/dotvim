@@ -199,6 +199,11 @@ endfunction
 " => Spell checking
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Necessary to run LanguageTools
+set nocompatible
+
+let spell_auto_type="all"
+
 "" English
 :nmap <F6> :setlocal spell! spelllang=en<cr>
 
@@ -209,11 +214,11 @@ endfunction
 :nmap <F8> :LanguageToolCheck <cr>
 
 "TODO: CHECK
-let g:tex_flavor='latex'
+" let g:tex_flavor='latex' "if uncommented the highlighed errors from spell check are not shown
 let g:languagetool_jar='$HOME/.vim/languagetool/LanguageTool-2.8/languagetool-commandline.jar'
-" Necessary to run LanguageTools
-set nocompatible
 
+"Automatically spell checks tex files when opened
+autocmd BufRead,BufNewFile *.tex setlocal spell
 
 """"""""""""""""""""""""""""""
 " => TMUX
@@ -270,6 +275,5 @@ func! DeleteTrailingWS()
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
-
 
 
