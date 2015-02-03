@@ -37,7 +37,6 @@ set ruler
 "" Height of the command bar
 "set cmdheight=2
 
-
 "" How many tenths of a second to blink when matching brackets
 set mat=2
 
@@ -57,8 +56,10 @@ set mat=2
 "" Enable syntax highlighting
 syntax enable
 
-colorscheme desert
-"colorscheme badwolf 
+"" some good options:
+"" wombat256i, mustang, molokai, candycode, Tomorrow-Night-Bright
+colorscheme Tomorrow-Night-Bright
+"colorscheme desert
 set background=dark
 
 "" Set utf8 as standard encoding and en_US as the standard language
@@ -259,6 +260,14 @@ nnoremap <leader>u :GundoToggle<CR>
 " Pyflakes
 " --------
 let g:pyflakes_use_quickfix = 0
+
+""""""""""""""""""""""""""""""
+" => YouCompleteMe
+"""""""""""""""""""""""""""""""
+let g:ycm_auto_trigger = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
+
 
 """"""""""""""""""""""""""""""
 " => Misc
