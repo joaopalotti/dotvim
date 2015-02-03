@@ -7,6 +7,12 @@ To install a module, go to bundle dir and install it like:
 git submodule add <git_repository>
 ___________________________________________
 
+To pull all submodules from git master:
+git submodule update --init --recursive
+___________________________________________
+To update all submodules:
+git submodule foreach git pull origin master
+___________________________________________
 Recomended to make a soft link between dotvimrc 
 and ~/.vimrc:
 ln -s $HOME/.vim/vimrc $HOME/.vimrc
@@ -63,8 +69,9 @@ https://github.com/davidhalter/jedi-vim
 YouCompleMe
 ------------
 
-Needs some configuration to install it.
-Read it at: https://github.com/Valloric/YouCompleteMe
+Needs some simple configuration to install it.
+After cloning, go to bundle/YouCompleteMe and run install.sh.
+Problems? Read: https://github.com/Valloric/YouCompleteMe
 
 
 
