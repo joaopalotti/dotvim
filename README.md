@@ -7,7 +7,7 @@ I got tired of copying my .vim files around and found this wonderful idea [here]
 # How To:
 
 ``` bash
-git clone https://github.com/joaopalotti/dotvim.git .vimrc
+git clone https://github.com/joaopalotti/dotvim.git .vim
 cd ~/.vim
 git submodule init
 git submodule update
